@@ -109,7 +109,7 @@ const Contact = () => {
               </div>
 
               {/* Emergency */}
-              <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+              {/* <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center space-x-4">
                   <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center">
                     <Phone className="w-6 h-6 text-green-600" />
@@ -124,7 +124,7 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Quick Actions */}
