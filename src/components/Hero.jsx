@@ -120,10 +120,10 @@ const Hero = () => {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
 
-              <button className="bg-black/20 backdrop-blur-sm hover:bg-black/30 text-white font-semibold py-4 px-8 rounded-full border border-white/30 hover:border-white/50 transition-all duration-300 flex items-center justify-center space-x-2">
+              {/* <button className="bg-black/20 backdrop-blur-sm hover:bg-black/30 text-white font-semibold py-4 px-8 rounded-full border border-white/30 hover:border-white/50 transition-all duration-300 flex items-center justify-center space-x-2">
                 <Phone className="w-5 h-5" />
                 <span>Call Now</span>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

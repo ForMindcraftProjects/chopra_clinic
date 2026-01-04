@@ -87,7 +87,7 @@ const ServicesShowcase = () => {
       icon: Target,
       title: "Tattoo Removal",
       description: "Safe and effective laser tattoo removal with minimal scarring.",
-      image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1651216829699-439e281e23d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       size: "normal"
     },
     {

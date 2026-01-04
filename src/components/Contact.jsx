@@ -84,7 +84,7 @@ const Contact = () => {
                       href="tel:+919876543210" 
                       className="text-green-600 hover:text-green-700 font-medium text-lg transition-colors duration-300"
                     >
-                      9876543210
+                      9811108616
                     </a>
                   </div>
                 </div>

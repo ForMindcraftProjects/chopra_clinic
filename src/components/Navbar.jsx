@@ -107,7 +107,7 @@ const Navbar = () => {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center space-x-4">
               <a
-                href="tel:+919876543210"
+                href="tel:+9811108616"
                 className="flex items-center space-x-2 text-green-100 hover:text-white transition-colors duration-300 text-sm font-medium"
               >
                 <Phone className="w-4 h-4" />

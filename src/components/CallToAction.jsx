@@ -42,8 +42,8 @@ const CallToAction = () => {
       icon: Phone,
       title: "Call Directly",
       subtitle: "Speak with our team",
-      action: "+91 9876543210",
-      href: "tel:+919876543210",
+      action: "+91 9811108616",
+      href: "tel:+919811108616",
       color: "bg-green-600 hover:bg-green-700"
     },
     {
@@ -59,7 +59,7 @@ const CallToAction = () => {
       title: "WhatsApp",
       subtitle: "Quick response",
       action: "Chat Now",
-      href: "https://wa.me/9876543210",
+      href: "https://wa.me/9811108616",
       color: "bg-green-500 hover:bg-green-600"
     }
   ];
@@ -196,14 +196,14 @@ const CallToAction = () => {
                 <div className="bg-white/10 rounded-2xl p-6 border border-white/20">
                   <Clock className="w-8 h-8 text-green-200 mx-auto mb-3" />
                   <h4 className="text-lg font-semibold mb-2">Clinic Hours</h4>
-                  <p className="text-green-100">Mon-Sat: 9 AM - 1 PM & 6 PM - 9 PM</p>
+                  <p className="text-green-100">Mon-Sat: 9 AM - 1 PM &  <br></br>6 PM - 9 PM</p>
                   <p className="text-green-200 text-sm">Sunday: Closed</p>
                 </div> 
 
                 <div className="bg-white/10 rounded-2xl p-6 border border-white/20">
                   <Phone className="w-8 h-8 text-green-200 mx-auto mb-3" />
                   <h4 className="text-lg font-semibold mb-2">Emergency Contact</h4>
-                  <p className="text-green-100">+91 9876543210</p>
+                  <p className="text-green-100">+91 9811108616</p>
                   <p className="text-green-200 text-sm">24/7 Support</p>
                 </div>
 
@@ -222,7 +222,7 @@ const CallToAction = () => {
                   className="bg-white hover:bg-gray-50 text-green-700 font-bold py-4 px-8 rounded-full shadow-xl flex items-center justify-center space-x-3"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>Call Now: +91 9876543210</span>
+                  <span>Call Now: +91 9811108616</span>
                 </a>
 
                 <button
