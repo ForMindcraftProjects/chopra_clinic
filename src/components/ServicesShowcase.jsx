@@ -34,14 +34,14 @@ const ServicesShowcase = () => {
       image: "https://images.unsplash.com/photo-1616391182219-e080b4d1043a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       size: "normal"
     },
-    {
-      id: 2,
-      icon: Stethoscope,
-      title: "Psoriasis & Eczema",
-      description: "Comprehensive management of chronic skin conditions with latest medical protocols.",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      size: "normal"
-    },
+    // {
+    //   id: 2,
+    //   icon: Stethoscope,
+    //   title: "UVB",
+    //   description: "Comprehensive management of chronic skin conditions with latest medical protocols.",
+    //   image: "/uvb.jpeg",
+    //   size: "normal"
+    // },
     {
       id: 3,
       icon: Activity,
@@ -77,17 +77,17 @@ const ServicesShowcase = () => {
     {
       id: 7,
       icon: Droplets,
-      title: "PRP Therapy",
-      description: "Platelet-rich plasma treatment for skin rejuvenation and hair restoration.",
-      image: "https://plus.unsplash.com/premium_photo-1702598817726-5502337bf58c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070",
+      title: "UVB",
+      description: "UVB plays a key role in the development of skin cancers",
+      image: "uvb_.jpeg",
       size: "normal"
     },
     {
       id: 8,
       icon: Target,
-      title: "Tattoo Removal",
+      title: "Photochamber",
       description: "Safe and effective laser tattoo removal with minimal scarring.",
-      image: "https://images.unsplash.com/photo-1651216829699-439e281e23d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image:"/photochamber.jpeg",
       size: "normal"
     },
     {
