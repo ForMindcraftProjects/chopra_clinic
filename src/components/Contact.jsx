@@ -49,7 +49,7 @@ const Contact = () => {
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                // referrerPolicy="no-referrer-when-downgrade"
                 title="Chopra Skin & Laser Clinic Location"
               ></iframe>
             </div>
