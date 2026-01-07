@@ -54,7 +54,7 @@ const Hero = () => {
       calendlyRef.current.innerHTML = "";
 
       window.Calendly.initInlineWidget({
-        url: "https://calendly.com/mindcraftlabs?hide_landing_page_details=1&hide_gdpr_banner=1",
+        url: "https://calendly.com/dr-chopraanil/30min",
         parentElement: calendlyRef.current,
       });
     }

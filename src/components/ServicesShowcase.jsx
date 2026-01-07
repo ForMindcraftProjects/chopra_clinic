@@ -11,7 +11,8 @@ import {
   Zap, 
   Heart, 
   Beaker, 
-  Scissors 
+  Scissors, 
+  HeartCrack
 } from 'lucide-react';
 
 const ServicesShowcase = () => {
@@ -34,14 +35,14 @@ const ServicesShowcase = () => {
       image: "https://images.unsplash.com/photo-1616391182219-e080b4d1043a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       size: "normal"
     },
-    // {
-    //   id: 2,
-    //   icon: Stethoscope,
-    //   title: "UVB",
-    //   description: "Comprehensive management of chronic skin conditions with latest medical protocols.",
-    //   image: "/uvb.jpeg",
-    //   size: "normal"
-    // },
+    {
+      id: 2,
+      icon: HeartCrack,
+      title: "PRP",
+      description:"A device that concentrates platelets from blood for skin and hair treatments.",
+      image: "/prp.jpeg",
+      size: "normal"
+    },
     {
       id: 3,
       icon: Activity,
@@ -78,7 +79,7 @@ const ServicesShowcase = () => {
       id: 7,
       icon: Droplets,
       title: "UVB",
-      description: "UVB plays a key role in the development of skin cancers",
+      description: "UVB plays a key role in the development of skin cancers.",
       image: "uvb_.jpeg",
       size: "normal"
     },
@@ -86,7 +87,7 @@ const ServicesShowcase = () => {
       id: 8,
       icon: Target,
       title: "Photochamber",
-      description: "Safe and effective laser tattoo removal with minimal scarring.",
+      description: "A controlled dermatology unit used for phototherapy.",
       image:"/photochamber.jpeg",
       size: "normal"
     },
@@ -102,7 +103,7 @@ const ServicesShowcase = () => {
       id: 10,
       icon: Heart,
       title: "Skin Cancer Screening",
-      description: "Early detection and treatment of skin cancers with expert dermatological care.",
+      description: "Early detection and treatment of skin cancers .",
       image: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       size: "normal"
     },
@@ -163,7 +164,7 @@ const ServicesShowcase = () => {
               </div>
 
               {/* Content */}
-              <div className="relative z-10 h-full flex flex-col justify-between p-6">
+             <div className="relative z-10 h-full flex flex-col p-6">
                 
                 {/* Icon */}
                 <div className="flex justify-between items-start">
@@ -172,11 +173,11 @@ const ServicesShowcase = () => {
                   </div>
                   
                   {/* Floating indicator */}
-                  <div className="w-3 h-3 bg-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div>
+                  {/* <div className="w-3 h-3 bg-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div> */}
                 </div>
 
                 {/* Title and Description */}
-                <div className="transform transition-all duration-500 group-hover:translate-y-0 translate-y-2">
+                <div className="mt-auto">
                   <h3 className="text-xl lg:text-2xl font-playfair font-bold text-white mb-3 leading-tight group-hover:text-green-100 transition-colors duration-300">
                     {service.title}
                   </h3>
